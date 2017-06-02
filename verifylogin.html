@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Login verification</title></head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.table{
+border: solid red;
+}
+.container
+{
+padding:0px;
+}
+</style>
+<body>
+<div class="container">
+     <nav class="nav navbar-inverse">
+	    <div class="nav navbar-header" style="margin:10px;padding-left:0px;padding-right=0px;">
+		<h2><a href="home.html" style="text-decoration:none;">CRUD Application</a></h2>
+	   
+		<ul class="nav navbar-nav" style="float:right;">
+			<li><h4><a class="active" href="home.html" style="text-decoration:none;">Home&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="regist.php" style="text-decoration:none;">Registration&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="verifylogin.html" style="text-decoration:none;">Login&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="update.html" style="text-decoration:none;">Update&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="delete.html" style="text-decoration:none;">Delete&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="show.html" style="text-decoration:none;">ShowData</a></h4></li>
+		</ul>
+	   </div>
+    </nav>	
+ </div>
+
+<div class="container" style="background-color:lightgreen;padding:10px;">
+<form name="myform" class="form-group" method="post" action="verifylogin.php" onsubmit="">
+<h2>Login page</h2>
+<table>
+<tr>
+<td>Username<br/></td><td> <input class="form-control" type="text" placeholder="username" name="username"><br/></td>
+</tr>
+<tr>
+<td>Password</td><td><input type="password" class="form-control" placeholder="Enter your password" name="password"><br/></td>
+</tr>
+<tr><td><input type="submit" class="btn btn-primary" value="login"></td><td><input class="btn btn-danger" type="reset" value="clear"></td></tr>
+</table>
+</form>
+</div>
+</body>
+<footer>
+<div class="container" style="padding:10px;background-color:black;">
+<div class="col-md-3 flow" style="float:left;">
+<a href="home.html" style="text-decoration:none;">Home</a><br/>
+<a href="#" style="text-decoration:none;">About Us</a><br/>
+<a href="#" style="text-decoration:none;">FAQ's</a><br/>
+</div>
+<div class="col-md-3 flow" style="float:left;">
+<a href="home.html" style="text-decoration:none;">Home</a><br/>
+<a href="regist.php" style="text-decoration:none;">Registration</a><br/>
+<a href="verifylogin.html" style="text-decoration:none;">Login</a><br/>
+</div>
+<div class="col-md-3 flow" style="float:left;">
+<a href="home.html" style="text-decoration:none;hover=color:red;">Home</a><br/>
+<a href="regist.php" style="text-decoration:none;">Registration</a><br/>
+<a href="verifylogin.html" style="text-decoration:none;">Login</a><br/>
+</div>
+<div class="col-md-3 flow" style="float:left;">
+<a href="https://www.facebook.com"><img src="fb.png" width="40px" height=40px></img></a>
+<a href="https://www.whatsappweb.com"><img src="wa.jpg" width="40px" height=40px></img></a>
+<a href="https://www.gmail.com"><img src="gmail.png" width="40px" height=40px></img></a>
+</div>
+
+<div>
+<b>
+</div>
+</div>
+</footer>
+</html>

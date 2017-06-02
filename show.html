@@ -1,0 +1,73 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+.table{
+border:2 px solid red;
+}
+.container
+{
+padding:0px;
+}
+ul li a{
+color:lightred;
+}
+a,ul li a:hover
+{
+color:lightgreen;
+}
+</style>
+<body>
+<div class="container">
+     <nav class="nav navbar-inverse">
+	    <div class="nav navbar-header" style="margin:10px;padding:10px">
+		<h2><a href="#" style="text-decoration:none;">CRUD-Application</a></h2>
+	   
+		<ul class="nav navbar-nav" style="float:left;">
+			<li><h4><a class="active" href="home.html" style="text-decoration:none;">Home&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="regist.php" style="text-decoration:none;">Registration&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="verifylogin.html" style="text-decoration:none;">Login&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="update.html" style="text-decoration:none;">Update&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="delete.html" style="text-decoration:none;">Delete&nbsp;&nbsp;&nbsp;</a></h4></li>
+			<li><h4><a href="show.html" style="text-decoration:none;">ShowData</a></h4></li>
+		</ul>
+	   </div>
+	<br/>
+    </nav>	
+ </div>
+<div class="container"  style="background-color:lightgreen;">
+	<form method="post" action="show.php">
+	<input type="text" name="table" placeholder="Enter the table name."> <input type="submit" value="Showdata">
+	</form>
+</div>
+
+<footer>
+<div class="container" style="padding:10px;background-color:black;">
+<div class="col-md-3 flow" style="float:left;">
+<a href="home.html" style="text-decoration:none;">Home</a><br/>
+<a href="#" style="text-decoration:none;">About Us</a><br/>
+<a href="#" style="text-decoration:none;">FAQ's</a><br/>
+</div>
+<div class="col-md-3 flow" style="float:left;">
+<a href="home.html" style="text-decoration:none;">Home</a><br/>
+<a href="regist.php" style="text-decoration:none;">Registration</a><br/>
+<a href="verifylogin.html" style="text-decoration:none;">Login</a><br/>
+</div>
+<div class="col-md-3 flow" style="float:left;">
+<a href="home.html" style="text-decoration:none;hover=color:red;">Home</a><br/>
+<a href="regist.php" style="text-decoration:none;">Registration</a><br/>
+<a href="verifylogin.html" style="text-decoration:none;">Login</a><br/>
+</div>
+<div class="col-md-3 flow" style="float:left;">
+<a href="https://www.facebook.com"><img src="fb.png" width="40px" height=40px></img></a>
+<a href="https://www.whatsappweb.com"><img src="wa.jpg" width="40px" height=40px></img></a>
+<a href="https://www.gmail.com"><img src="gmail.png" width="40px" height=40px></img></a>
+</div>
+</footer>
+
+</body>
+</html>
+
